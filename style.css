@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #70c5ce;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 2px solid #aaa;
+    background-color: #ff5733;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9qQIxEs0LaGmLXcY26HaMew6W68fZTz4M-ukcN8ETXRtsCT9oaReMxMpVIJOSiD8uB8&usqp=CAU");
+}
